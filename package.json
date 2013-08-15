@@ -1,0 +1,27 @@
+{
+    "name": "hello_world",
+    "version": "0.9.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon -e js",
+        "test": "mocha test/server/*.js"
+    },
+    "repository": {
+
+    },
+    "author": "Alex Thieme",
+    "license": "BSD",
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "consolidate" : "~0.9.1",
+        "swig" : "~1",
+        "express" : "~3.2.6",
+        "mongodb" : "~1.3.18",
+        "express" : "~3"
+    },
+    "devDependencies": {
+
+    }
+}
+
